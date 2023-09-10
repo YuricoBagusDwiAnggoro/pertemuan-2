@@ -1,0 +1,8 @@
+def getsum(mylist):
+  sum=0
+  for item in mylist:
+    sum = sum+item
+  return sum
+getsum([1,2,3,4])
+getsum([1,2,3])
+getsum([1,2,3,4])

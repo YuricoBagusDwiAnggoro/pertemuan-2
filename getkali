@@ -1,0 +1,8 @@
+def getkali(mylist):
+  kali=1
+  for item in mylist:
+    kali = kali*item
+  return kali
+getkali([1,2,3])
+getkali([1,2,3])
+getkali([1,2,3,4])
